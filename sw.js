@@ -1,5 +1,5 @@
 /* สมุดจ่ายรายวัน — service worker */
-const VERSION = "money-v2";
+const VERSION = "money-v3";
 const SHELL = [
   "./",
   "./index.html",
