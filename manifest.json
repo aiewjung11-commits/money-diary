@@ -1,7 +1,7 @@
 {
   "name": "สมุดจ่ายรายวัน",
   "short_name": "สมุดจ่าย",
-  "description": "บันทึกค่าใช้จ่ายรายวัน แนบสลิปแล้วอ่านยอดให้อัตโนมัติ ดูยอดรวมรายเดือน",
+  "description": "บันทึกค่าใช้จ่ายรายวัน แนบสลิปแล้วอ่านยอดให้อัตโนมัติ",
   "lang": "th",
   "start_url": "./",
   "scope": "./",
@@ -13,11 +13,5 @@
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ],
-  "share_target": {
-    "action": "./?share=1",
-    "method": "POST",
-    "enctype": "multipart/form-data",
-    "params": { "files": [ { "name": "slips", "accept": ["image/*"] } ] }
-  }
+  ]
 }
